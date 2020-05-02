@@ -1,0 +1,456 @@
+.First{
+    background-color: rgba(86, 100, 221, 0.979);
+    width: auto;
+    height: 90px;
+    visibility: visible;
+   
+    
+}
+p{
+    text-align: center;
+    color: white;
+    
+    font: normal;
+    /* padding-top: 70px; */
+    padding-left: 200px;
+    display: inline-block; 
+    margin: 5px 0px 10px 10px;  
+}
+.facebook{
+    padding-left: 40px;
+    width: 20px;
+    height: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    background-color: transparent;
+    
+    
+}
+.twitter{
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-right: 20;
+    border-radius: 20px;
+    background-color: transparent;
+    
+}
+.instagram{
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-right: 20;
+    border-radius: 20px;
+    background-color: transparent;
+    
+}
+.youtube{
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-right: 20;
+    border-radius: 20px;
+    background-color: transparent;
+
+}
+.whatsapp{
+    width: 20px;
+    height: 20px;
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    margin-right: 20;
+    border-radius: 20px;
+    background-color: transparent;
+}
+.button1{
+    color: darkgreen;
+    background-color: lightgray;
+    margin-left: 50px;
+    
+    cursor: pointer;
+
+    
+    
+}
+.button2{
+    color: darkgreen; 
+    background-color: lightgray;
+    margin-left: 10px;
+    cursor: pointer;
+    
+}
+.button3{
+    color: darkgreen;
+    background-color: lightgray;
+    margin-left: 10px;   
+    cursor: pointer;
+   
+}
+
+
+img{
+    width: 200px;
+    height: 100px;
+    
+}
+
+ body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  .navbar {
+    
+    float: right;
+    background-color : white; 
+    margin: 0px;
+    width: 100%;
+  }
+
+  .image{
+    width: 200px;
+    height: 100px;
+    left: 30px;
+     float: left;
+     margin-right: 10px;
+  }
+
+  
+  
+  .navbar a {
+    
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px ;
+    position: relative;
+    display: inline-block;
+   
+  }
+  .subnavbar{
+    margin-left: 350px;
+  }
+  
+  .subnav {
+    float: left;
+    overflow: hidden;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    
+    
+  }
+  
+  .subnav .subnavbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    border-radius: 20px;
+  }
+  
+  .navbar a:hover, .subnav:hover .subnavbtn {
+    background-color: rgba(86, 100, 221, 0.979);
+  }
+  
+  .subnav-content a {
+    display: block;
+    text-decoration: none;
+    padding: 12px 16px ;
+    color: black;
+    
+    
+  }
+  
+  .subnav-content  {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+  }
+  
+  
+  .subnav-content a:hover {
+    background-color: rgba(86, 100, 221, 0.979);
+    color: whitesmoke;
+  }
+  .subnavbtn:hover {
+    background-color: rgba(86, 100, 221, 0.979);
+    color: whitesmoke;
+  }
+  
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+ .navbar a.active {
+    background-color: rgba(86, 100, 221, 0.979);
+    color: white;
+    border-radius: 20px;
+  }
+  .navbar{
+      cursor: pointer;
+      float: right;
+  }
+  .front{
+    width: auto;
+    height: 600px;
+    display: inline-block;
+
+  }
+  .frontpic{
+  
+    width: 1300px;
+    height: 500px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-right: 20px;
+
+  }
+  
+  .news{
+    margin-right: 150px;
+  }
+  h1{
+    text-align: center;
+    font-size: 50px;
+  }
+ 
+  .introdown{
+    text-align: center;
+    width: 50px;
+    height: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .third{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .intro{
+    text-align: center;
+    color: black;
+    padding-right: 100px;
+  }
+  .works{
+    width: auto;
+    height: 300px;
+    background-color: rgba(42, 45, 241, 0.979) ;
+    margin-top: 50px;
+  
+  }
+  .doing{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif
+  }
+  .color{
+    color: green ;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 40px ;
+    height: 20px;;
+  }
+  .table2 {
+    background-color: rgb(235, 229, 229);
+    width: 350px;
+    height: 70px;
+}
+
+.im3 {
+    width: 50px;
+    padding-right: 40px;
+}
+.colspan1 {
+  width: 25px;
+}
+  
+  .p1{
+    text-align: left;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    
+  }
+  .working{
+    width: 60px;
+    height: 30px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 40px;
+    border-radius: 30px;
+    
+  }
+  .doing-align{
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+  .para {
+    color: black; 
+    text-align: justify;
+    margin-left: 0px;
+    margin-right: 200px;
+}
+.introdown{
+  width: 30px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+.para1 {
+  color: white;
+  display: inline-block;
+  padding: 10px 18px 10px 18px;
+  margin: 0 0 70px 20px;
+  font-size:20px;
+  font-weight: initial;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  top:25%;
+}
+.im1{
+  display: inline-block;
+  width: 60px;
+}
+.im2 {
+  width: 70px;
+  padding: 7% auto 0 auto;
+}
+.table {
+  height: 180px;
+  width: 350px;
+  border: 1px solid white;
+  box-shadow: 2px 8px 8px lightgray;
+  text-align: center;
+}
+
+.colspan {
+  width: 20px;
+}
+
+.projects {
+  color: blue;
+  font-weight: bold;
+  font-size: 25px;
+  padding-left: 5%;
+ width: 820px;
+}
+.events {
+  display: inline-block;
+  color: blue;
+  font-size: 25px;
+  font-weight: initial;
+  width: 400px;
+  text-align: left;
+}
+.im4 {
+  width: 17%;
+  height: 10%;
+  
+}
+.gallery{
+  padding-left: 20px;
+}
+.colspan1 {
+  width: 25px;
+}
+.im5{
+  width: 20px;
+  height: 10px;
+  position: relative;
+}
+.para3 {
+  color: lightgray;
+  text-align: left;
+  padding-bottom: 30px;
+}
+.para4{
+  padding-right: 200px;
+  padding-bottom: 30px;
+  
+}
+.para5{
+  padding-right: 40px;
+  padding-bottom: 20px;
+}
+.lining{
+  padding-left: 50px;
+  padding-bottom: 20px;
+}
+.im6{
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  
+}
+  
+.contact{
+  float: right;
+  position: relative;
+}
+
+.align-right{
+  float: right;
+  padding-right: 50px;
+ float: top;
+
+}
+.topbtn {
+  position: fixed;
+  /* float: right; */
+  bottom: 10px;
+  right: 30px;
+  /* box-shadow: 2px 8px 8px rgb(56, 55, 55); */
+  color: lightgrey;
+  border: none;  
+  outline: none; 
+  cursor: pointer;
+  background-color: transparent;
+  padding-right: 12px;
+}
+.topbtn:hover{
+  background-color: rgb(95, 91, 91);
+}
+.usefullinks{
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  width: 800px;
+}
+.connect{
+  color: white;
+  font-weight: bold;
+}
+.paralast{
+  color: gray;
+  position: relative;
+  bottom: 5px;
+
+}
+.im5{
+  width: 30px;
+  height: 20px;
+  position: relative;
+  bottom: 35px;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 400px){
+  body{
+    width: auto;
+  }
+}
+  
